@@ -1,0 +1,14 @@
+//function first(){
+//    console.log("first")
+//}
+//function second(y)
+//{
+  //  console.log("second")
+   // y()
+//}
+//second(first)
+function hello()
+{
+    console.log("hello")   
+}
+setTimeout(hello,3000)

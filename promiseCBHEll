@@ -1,0 +1,12 @@
+console.log("Start")
+const cart = ["shirt" , "rings" , "pants"]
+
+api.createOrder(function(){
+    api.proceedToPayment(function(){
+        api.Summary(function(){
+            api.walletUpdated()
+        })
+    })
+})
+
+console.log("stop")
